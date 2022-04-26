@@ -122,7 +122,7 @@ kubectl delete configmap config2-<username>
 
 ## Importing code
 
-Let's now do something (semi) useful. Let's [compute pi](https://www.geeksforgeeks.org/calculate-pi-with-python/)].
+Let's now do something (semi) useful. Let's [compute pi](https://www.geeksforgeeks.org/calculate-pi-with-python/).
 
 ###### pi.py:
 
