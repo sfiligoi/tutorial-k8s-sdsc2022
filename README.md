@@ -21,7 +21,7 @@ All times in Pacific Time (San Diego, USA).
 10:55am - Storage Hands On
 11:20am - Kubernetes resource scheduling (Lecture)
 11:35pm - Scheduling Hands On
-12:00am - Break
+12:00pm - Break
 12:15pm - Monitoring your compute (Lecture)
 12:20pm - Taking advantage of network services (Lecture)
 12:30pm - Networking Hands On
