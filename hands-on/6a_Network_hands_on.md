@@ -277,10 +277,13 @@ kubectl get ingress
 
 You should now be able to fetch the Web pages from your browser by opening `https://<username>.nrp-nautilus.io`. Note that SSL termination is already provided for you.
 
-You can now delete the ingress:
+You can now delete the ingress, service, deployment and test pod:
 
 ```
 kubectl delete -f ingress.yaml
+kubectl delete -f svc2.yaml
+kubectl delete -f http2.yam
+kubectl delete pod pod-<username>
 ```
 
 ## The end
