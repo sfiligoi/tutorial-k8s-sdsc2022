@@ -7,7 +7,7 @@ Hands on session
 
 These days everything seems to be Web-first. Can we support this in kubernetes?
 
-Let's that Jupyter notebooks. They are very convenient for interactive analyses, but they are driven through a Web browser.
+Let's start with Jupyter notebooks. They are very convenient for interactive analyses, but they are driven through a Web browser.
 
 You can copy-and-paste the lines below to create a deplyment, but please do replace “username” with your own id.
 
@@ -73,7 +73,7 @@ You will get a printout like this:
      or http://127.0.0.1:8888/?token=f843f35d1f8191b907c576c4e6b9f41766bad41320495e5a
 ```
 
-You cannot direclty access jn-<username>-<hash> URL and the 127.0.0.1 URL is obviously local to the pod.
+You cannot direclty access `jn-<username>-<hash>` URL and the `127.0.0.1` URL is obviously local to the pod.
 In order to access it from your laptop, you must put in place port-forwarding (possibly in a different terminal):
 
 ```
