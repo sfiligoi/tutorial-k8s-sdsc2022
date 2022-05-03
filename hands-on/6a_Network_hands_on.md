@@ -160,7 +160,7 @@ kubectl get pods -o wide
 Log into pod1
 
 ```
-kubectl exec -it http-<username>-<hash> -- /bin/sh
+kubectl exec -it pod-<username> -- /bin/sh
 ```
 
 Now try to pull the home pages from the two Web servers; use the IPs you obtained above:\
@@ -172,8 +172,7 @@ You should get a different answer from the two.
 
 Having to manually switch between the two Pods is obviously tedious. What we really want is to have a single logical address that will automatically load-balance between them.
 
-You can copy-and-paste the lines below, but please do replace “username” with your own id;\
-All the participants in this hands-on session share the same namespace, so you will get name collisions if you don’t.
+You can copy-and-paste the lines below, but please do replace “username” with your own id.
 
 ###### svc2.yaml:
 
@@ -209,7 +208,7 @@ kubectl get services
 Log into pod1
 
 ```
-kubectl exec -it http-<username>-<hash> -- /bin/sh
+kubectl exec -it pod-<username> -- /bin/sh
 ```
 
 Now try to pull the home page from the service IP:
