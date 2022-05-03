@@ -80,7 +80,8 @@ In order to access it from your laptop, you must put in place port-forwarding (p
 kubectl port-forward jn-<username>-<hash> 8888:8888
 ```
 
-You can now use the 127.0.0.1 from your local Web browser and access the (remote) jupyter notebook.
+You can now use the 127.0.0.1 URL from your local Web browser and access the (remote) jupyter notebook.
+(copy the whole URL into your browser, as it contains the authentication token)
 
 If you have any experience with jupyter, feel free to play with it for a bit, including python3 notebooks and terminal.
 
