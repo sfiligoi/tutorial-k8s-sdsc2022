@@ -275,7 +275,7 @@ See if it succeeded:
 kubectl get ingress
 ```
 
-You should now be able to fetch the Web pages from your browser by opening <https://username.nrp-nautilus.io>. Note that SSL termination is already provided for you.
+You should now be able to fetch the Web pages from your browser by opening `https://<username>.nrp-nautilus.io`. Note that SSL termination is already provided for you.
 
 You can now delete the ingress:
 
