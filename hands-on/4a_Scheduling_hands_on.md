@@ -119,8 +119,15 @@ kind: Pod
 metadata:
   name: gpupod-<username>
 spec:
-  nodeSelector:
-    nvidia.com/gpu.product: "NVIDIA-GeForce-GTX-1080-Ti"
+  affinity:
+    nodeAffinity:
+     requiredDuringSchedulingIgnoredDuringExecution:
+       nodeSelectorTerms:
+       - matchExpressions:
+         - key: nvidia.com/gpu.product
+           operator: In
+           values:
+           - "NVIDIA-GeForce-GTX-1080-Ti"
   containers:
   - name: mypod
     image: nvidia/cuda:11.4.1-runtime-centos8
