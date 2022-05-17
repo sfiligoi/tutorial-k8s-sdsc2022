@@ -2,9 +2,11 @@
 
 Several new scientific compute resources are becoming available only through Kubernetes and their users will have to adapt their workloads to interface to it.
 This tutorial provides the basic Kubernetes notions any science user will need,
-paired with extensive hands-on exercises on a production-quality system to better explore the details. 
+paired with extensive hands-on exercises on a production-quality system to better explore the details.
 
 ## Agenda
+
+This material was presented as part of a [SDSC training event](https://www.sdsc.edu/event_items/202205_Kubernetes-for-Science-Compute.html).
 
 Wednesday, May 4, 2022
 
@@ -28,3 +30,8 @@ All times in Pacific Time (San Diego, USA).
 12:55pm - Additional tools in Kubernetes (Lecture)
 13:00pm - Closeout
 ```
+
+## Video of the event
+
+The tutorial was recorded and is avaialble on [youtube])https://www.youtube.com/watch?v=BvgnFHDjc9M&list=PLyckeMIsNe-_bE8I5eay961dfGBsBwcBy&index=30).
+
