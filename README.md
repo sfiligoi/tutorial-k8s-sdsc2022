@@ -33,5 +33,5 @@ All times in Pacific Time (San Diego, USA).
 
 ## Video of the event
 
-The tutorial was recorded and is avaialble on [youtube])https://www.youtube.com/watch?v=BvgnFHDjc9M&list=PLyckeMIsNe-_bE8I5eay961dfGBsBwcBy&index=30).
+The tutorial was recorded and is avaialble on [youtube](https://www.youtube.com/watch?v=BvgnFHDjc9M&list=PLyckeMIsNe-_bE8I5eay961dfGBsBwcBy&index=30).
 
